@@ -21,7 +21,7 @@ car_classifier = cv2.CascadeClassifier("cars.xml")
 count = 0
 pos_frame = vid.get(cv2.CAP_PROP_POS_FRAMES)
 
-# OUTPUT VIDEO IS NOT PLAYABLE, I FUCKING HATE THIS PIECE OF SHIT.
+# Output video was not playable by my computer, codecs were either not supported (?) or files came out corrupted according to my viewer.
 #output = cv2.VideoWriter(newvid + "output.avi", cv2.VideoWriter_fourcc(*"XVID"), 20.0, (640,480))
 
 while True:
